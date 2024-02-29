@@ -119,7 +119,7 @@ const MainContent = () => (
 
 
     <h1>OUR CLUBS</h1>
-    <div className="clubCard" style={{
+    <div className="ClubCard" style={{
       display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap',
       backgroundImage: 'url(https://media.discordapp.net/attachments/1205756212445192263/1209453048263479348/club_background.png?ex=65e6f9ed&is=65d484ed&hm=62024ebbcb2b02ba5a8a0d863ad1cafd339cd7ff775e26a6258a1e18e062cebd&=&format=webp&quality=lossless&width=1322&height=662)',
       backgroundSize: 'cover',
@@ -127,7 +127,7 @@ const MainContent = () => (
       backgroundPosition: 'center',
     }}>
 
-      <ClubCard imageSrc="https://cdn.discordapp.com/attachments/1205756212445192263/1205786539808784394/15.png?ex=65d9a339&is=65c72e39&hm=cd0999048c7718602ec123238ee9168ab72b5816fe1ebf28138bab7a9fbcb91d&" clubName="Innovation Club" />
+      <ClubCard className='cardImage'imageSrc="https://cdn.discordapp.com/attachments/1205756212445192263/1205786539808784394/15.png?ex=65d9a339&is=65c72e39&hm=cd0999048c7718602ec123238ee9168ab72b5816fe1ebf28138bab7a9fbcb91d&" clubName="Innovation Club" />
       <ClubCard imageSrc="https://cdn.discordapp.com/attachments/1205756212445192263/1205787286873047080/12.jpg?ex=65d9a3eb&is=65c72eeb&hm=0f2ea5049c2bbaaa928563a0439a187735fec06ab9d6686827a4dc953c7b427b&" clubName="Technology Club" />
       <ClubCard imageSrc="https://cdn.discordapp.com/attachments/1205756212445192263/1205787387301732393/14.jpg?ex=65d9a403&is=65c72f03&hm=6b9bb339bd0cf9f542ba52daf632df6829846fc6040e9cace1eb9d6c548e8bab&" clubName="R&D Club" />
 

@@ -34,8 +34,8 @@
 .menu {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-right: auto;
+  align-items: left;
+  margin-right: 40%;
   text-align: left;
 }
 

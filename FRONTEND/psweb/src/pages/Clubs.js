@@ -25,7 +25,7 @@ const Clubs = () => (
         display:"flex",
         marginLeft:"40%"
         }}>
-        <p style={{fontSize:"40px",color:"white"}}>Innovation Club</p>
+        <p style={{fontSize:"40px",color:"white",marginTop:'40px'}}>Innovation Club</p>
         <button className='buttonc' style={{marginRight:'14%'}}>Join Now</button>
       </div>
       <div>
@@ -56,7 +56,7 @@ const Clubs = () => (
         display:"flex",
         marginLeft:"40%"
         }}>
-        <p style={{fontSize:"40px",color:"white"}}>Technology Club</p>
+        <p style={{fontSize:"40px",color:"white",marginTop:'40px'}}>Technology Club</p>
         <button className='buttonc'>Join Now</button>
       </div>
 
@@ -88,7 +88,7 @@ const Clubs = () => (
         display:"flex",
         marginLeft:"25%"
         }}>
-        <p style={{fontSize:"40px",color:"white"}}>Research & Development (R&D) Club </p>
+        <p style={{fontSize:"40px",color:"white",marginTop:'40px'}}>Research & Development (R&D) Club </p>
         <button className='buttonc' style={{marginLeft:'15%'}}>Join Now</button>
       </div>
       <div>

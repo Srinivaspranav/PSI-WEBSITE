@@ -251,7 +251,7 @@ const LoginForm = () => {
                                     />
                                     Remember me
                                 </label>
-                                <a href="#" className="registerLink" onClick={handleToggleForgotPassword}>
+                                <a href="/forgot" className="registerLink" onClick={handleToggleForgotPassword}>
                                     Forgot Password?
                                 </a>
                             </div>
