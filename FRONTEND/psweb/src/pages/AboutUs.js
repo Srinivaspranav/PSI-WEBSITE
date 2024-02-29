@@ -2,6 +2,8 @@ import React from 'react';
 import '../Style/AboutUs.css';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import '../Style/scrollbar.css'
+
 
 
 const AboutUs = () => (
@@ -27,9 +29,9 @@ const AboutUs = () => (
         </p>
       </div>
     </div>
-    <div style={{  }}>
-  <hr style={{ borderColor: "#00FF84", width: "95vw",boxShadow: '0px 7px 10px rgba(0, 255, 132, 0.5)' }} />
-</div>
+    <div style={{}}>
+      <hr style={{ borderColor: "#00FF84", width: "95vw", boxShadow: '0px 7px 10px rgba(0, 255, 132, 0.5)' }} />
+    </div>
 
     {/* OurWorksSection */}
     <div className="ourWorksSection">
@@ -44,7 +46,7 @@ const AboutUs = () => (
         ))}
       </div>
     </div>
-    <div><hr style={{ borderColor: "#00FF84", width: "95vw",  }} /></div>
+    <div><hr style={{ borderColor: "#00FF84", width: "95vw", }} /></div>
 
     {/* OurFounderWordsSection */}
     <div className="ourFounderWordsSection">
@@ -60,7 +62,7 @@ const AboutUs = () => (
         </div>
       </div>
     </div>
-    <div><hr style={{ borderColor: "#00FF84", width: "95vw",  }} /></div>
+    <div><hr style={{ borderColor: "#00FF84", width: "95vw", }} /></div>
 
     {/* OurVisionSection */}
     <div className="ourVisionSection">
@@ -76,7 +78,7 @@ const AboutUs = () => (
         </p>
       </div>
     </div>
-    <div><hr style={{ borderColor: "#00FF84", width: "95vw",  }} /></div>
+    <div><hr style={{ borderColor: "#00FF84", width: "95vw", }} /></div>
 
     {/* ValuesSection */}
     <div className="ourValuesSection">
@@ -90,9 +92,9 @@ const AboutUs = () => (
         ))}
       </div>
     </div>
-    <div><hr style={{ borderColor: "#00FF84", width: "95vw",  }} /></div>
+    <div><hr style={{ borderColor: "#00FF84", width: "95vw", }} /></div>
 
     {/* Footer */}
-    <Footer/>
-      </div>
-);export default AboutUs;
+    <Footer />
+  </div>
+); export default AboutUs;

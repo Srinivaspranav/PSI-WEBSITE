@@ -3,6 +3,7 @@ import "../Style/contactus.css";
 import "../Style/Dashboard.css";
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import '../Style/scrollbar.css';
 
 
 const ContactUs = () => {
@@ -14,7 +15,7 @@ const ContactUs = () => {
 
     return (
         <div className="app">
-            <NavBar/>
+            <NavBar />
 
             <div className='mainpart'>
                 <div className='SidePane'>
@@ -143,7 +144,7 @@ const ContactUs = () => {
             </div>
 
 
-            <Footer/>
+            <Footer />
         </div>
     );
 };

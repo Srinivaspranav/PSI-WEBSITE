@@ -15,22 +15,6 @@
 
 
 
-::-webkit-scrollbar {
-  width: 5px;
-  height: 0px;
-}
-
-::-webkit-scrollbar-track {
-  background: #002333ec;
-  /* box-shadow: inset 0 0 5px #002333; */
-  border-radius: 0px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #063049;
-  border-radius: 0px;
-}
-
 /* Navigation styles */
 
 

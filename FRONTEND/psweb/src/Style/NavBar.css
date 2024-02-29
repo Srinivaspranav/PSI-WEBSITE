@@ -5,8 +5,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     height: 40px;
     width:1496px;
+=======
+    height: 70px;
+    width:100vw;
+>>>>>>> dbc1d445c555a7d2459d11beaf5b074ed1f114a7
     position: sticky;
     top: 0px;
     /* z-index: 1; */
@@ -29,12 +34,64 @@
     margin: 0;
   }
   
-  nav li {
-    margin: 0 15px;
+  .navLi {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
     cursor: pointer;
-    color: white;
-    text-decoration: none;
   }
+  
+  .navLi {
+    --primary-color: #111;
+    --hovered-color: #ffffff;
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+    margin-right: 25px;
+  }
+  
+  .navLi p {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+  
+  .navLi::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: 0.3s ease-out;
+  }
+  
+  .navLi p::before {
+    position: absolute;
+    /*   box-sizing: border-box; */
+    content: "Subscribe";
+    width: 0%;
+    inset: 0;
+    color: var(--hovered-color);
+    overflow: hidden;
+    transition: 0.3s ease-out;
+  }
+  
+  .navLi:hover::after {
+    width: 100%;
+  }
+  
+  .navLi:hover p::before {
+    width: 100%;
+  }
+  
+
   a{
     color: white;
     text-decoration: none;

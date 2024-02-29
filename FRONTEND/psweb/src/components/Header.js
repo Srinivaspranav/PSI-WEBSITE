@@ -5,7 +5,7 @@
 
 export default function Header(){
     return(
-        <h1>Pallemsetti Innovations</h1>
+        <h1>Palamsetty Innovations</h1>
     )
 
 }
