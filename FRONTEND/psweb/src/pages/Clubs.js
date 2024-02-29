@@ -22,25 +22,14 @@ const Clubs = () => (
     <hr style={{ borderColor: "#00FF84", width: "99%" }} />
     <div>
       <div style={{
-<<<<<<< HEAD
         display:"flex",
         marginLeft:"40%"
         }}>
         <p style={{fontSize:"40px",color:"white"}}>Innovation Club</p>
-        <button className='button' style={{marginRight:'14%'}}>Join Now</button>
+        <button className='buttonc' style={{marginRight:'14%'}}>Join Now</button>
       </div>
       <div>
         <h1 className='para1' style={{color:"white",textAlign:"left"}}>About the Club</h1>
-=======
-        display: "flex",
-        marginLeft: "40%"
-      }}>
-        <p style={{ fontSize: "50px", color: "white" }}>Innovation Club.</p>
-        <button style={{ marginLeft: "37%", height: "50px", marginTop: "7%", backgroundColor: "orange", width: "120px" }}>Join Now</button>
-      </div>
-      <div>
-        <h1 className='para1' style={{ color: "white", textAlign: "left" }}>About the Club.</h1>
->>>>>>> dbc1d445c555a7d2459d11beaf5b074ed1f114a7
         <p className='para'>
           Welcome to the Innovation Club at Dr. Palamsetty Innovations, where creativity knows no bounds. Our club serves as a catalyst for innovation, bringing together creative minds from all disciplines to tackle challenges and explore new possibilities.
         </p>
@@ -64,27 +53,15 @@ const Clubs = () => (
     <hr style={{ borderColor: "#00FF84", width: "99%" }} />
     <div>
       <div style={{
-<<<<<<< HEAD
         display:"flex",
         marginLeft:"40%"
         }}>
         <p style={{fontSize:"40px",color:"white"}}>Technology Club</p>
-        <button className='button'>Join Now</button>
-=======
-        display: "flex",
-        marginLeft: "40%"
-      }}>
-        <p style={{ fontSize: "50px", color: "white" }}>Technology Club.</p>
-        <button style={{ marginLeft: "35%", height: "50px", marginTop: "7%", backgroundColor: "orange", width: "120px" }}>Join Now</button>
->>>>>>> dbc1d445c555a7d2459d11beaf5b074ed1f114a7
+        <button className='buttonc'>Join Now</button>
       </div>
 
       <div >
-<<<<<<< HEAD
         <h1 className='para1' style={{color:"white",textAlign:"left"}}>About the Club</h1>
-=======
-        <h1 className='para1' style={{ color: "white", textAlign: "left" }}>About the Club.</h1>
->>>>>>> dbc1d445c555a7d2459d11beaf5b074ed1f114a7
         <p className='para'>
           Welcome to the Technology Club at Dr. Palamsetty Innovations, where we're passionate about all things tech. Our club provides a platform for students to explore emerging technologies, enhance their technical skills, and stay ahead in the ever-evolving world of technology.
         </p>
@@ -108,31 +85,14 @@ const Clubs = () => (
 
     <div>
       <div style={{
-<<<<<<< HEAD
         display:"flex",
         marginLeft:"25%"
         }}>
         <p style={{fontSize:"40px",color:"white"}}>Research & Development (R&D) Club </p>
-        <button className='button' style={{marginLeft:'15%'}}>Join Now</button>
+        <button className='buttonc' style={{marginLeft:'15%'}}>Join Now</button>
       </div>
       <div>
         <h1 className='para1' style={{color:"white",textAlign:"left"}}>About the Club</h1>
-=======
-        display: "flex",
-        marginLeft: "28%"
-      }}>
-        <p style={{ fontSize: "50px", color: "white" }}>Research & Development (R&D) Club. </p>
-        <button style={{
-          marginLeft: "10%",
-          height: "50px",
-          marginTop: "5%",
-          backgroundColor: "orange",
-          width: "120px"
-        }}>Join Now</button>
-      </div>
-      <div>
-        <h1 className='para1' style={{ color: "white", textAlign: "left" }}>About the Club.</h1>
->>>>>>> dbc1d445c555a7d2459d11beaf5b074ed1f114a7
         <p className='para'>
           Welcome to the Research & Development (R&D) Club at Dr. Palamsetty Innovations, where curiosity meets discovery. Our club is dedicated to advancing knowledge and driving innovation through cutting-edge research and experimentation.
         </p>

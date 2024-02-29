@@ -1,20 +1,15 @@
-.nav {
+/* .nav {
     background-color: #053047;
     color: white;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
-    height: 40px;
-    width:1496px;
-=======
     height: 70px;
     width:100vw;
->>>>>>> dbc1d445c555a7d2459d11beaf5b074ed1f114a7
     position: sticky;
     top: 0px;
-    /* z-index: 1; */
+    z-index: 10;
   }
   
   .logo {
@@ -74,7 +69,7 @@
   
   .navLi p::before {
     position: absolute;
-    /*   box-sizing: border-box; */
+   
     content: "Subscribe";
     width: 0%;
     inset: 0;
@@ -105,4 +100,167 @@
     cursor: pointer;
     margin-right: 20px;
   }
- 
+  */
+  .nav {
+    background-color: #053047;
+    color: white;
+    padding: 40px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+  }
+  
+  .logo {
+    margin-top: 25px;
+    height: 50px;
+    width: 100px;
+    position: relative;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .navLi {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .navLi {
+    --primary-color: #111;
+    --hovered-color: #ffffff;
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+    margin-right: 25px;
+  }
+  
+  .navLi p {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+  
+  .navLi::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: 0.3s ease-out;
+  }
+  
+  .navLi p::before {
+    position: absolute;
+   
+    content: "Subscribe";
+    width: 0%;
+    inset: 0;
+    color: var(--hovered-color);
+    overflow: hidden;
+    transition: 0.3s ease-out;
+  }
+  
+  .navLi:hover::after {
+    width: 100%;
+  }
+  
+  .navLi:hover p::before {
+    width: 100%;
+  }
+  
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .loginButton {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: #002333;
+    color: white;
+    border-radius: 4px;
+   }
+   
+   .loginButtonhover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+   
+   .loginButton:active {
+    transform: translate(0em, 0.2em);
+   }
+   
+   
+  nav .menu {
+    display: none;
+    position: absolute;
+    top: 0.75em;
+    
+    right:0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+  }
+  nav .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: #002333;
+    border-radius: 0.2rem;
+  }
+  
+ @media only screen and (max-width: 480px) {
+  nav .menu {
+    display: flex;
+    margin-top: 10px;
+    z-index: 10;
+  }
+  nav{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  nav ul{
+    display: none;
+    flex-direction: column;
+    width : 100%;
+    margin-bottom: 0.25rem;
+    
+  }
+  nav ul.open {
+    display: flex;
+    background-color: #002333;
+  }
+  nav ul Li{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  nav ul Li a{
+    margin: 0.2rem 0.5rem;
+  }
+ }

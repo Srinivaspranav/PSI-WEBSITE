@@ -180,7 +180,7 @@ const StatisticsSection = () => (
 
 
 const Home = () => (
-  <div className="app">
+  <div className="apphome">
     <NavBar />
     <MainContent />
     <AboutSection />
