@@ -74,7 +74,7 @@ fontSize: '16px',
 boxSizing: 'border-box',
     
 },
-button: {
+buttonf: {
    
 backgroundColor: '#007BFF',
 color: '#fff',
